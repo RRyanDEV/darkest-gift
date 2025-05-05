@@ -6,7 +6,7 @@
 [![Issues][issues-shield]][issues-url]
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/RRyanDEV/darkest-gift/refs/heads/master/public/logo-readme.png" min-width="400px" max-width="400px" width="300px" align="center">
+<img src="https://raw.githubusercontent.com/RRyanDEV/darkest-gift/refs/heads/main/public/logo-readme.png" min-width="400px" max-width="400px" width="300px" align="center">
     <br />
 <p align="center">
 Presenteie com liberdade, escolha com a gente.
@@ -14,7 +14,7 @@ Presenteie com liberdade, escolha com a gente.
     <br />
     <a href="#notas-de-versão">Notas de Versão</a>
     ||
-    <a href="">Reportar um Bug</a> 
+    <a href="https://github.com/RRyanDEV/darkest-gift/issues">Reportar um Bug</a> 
     ||
     <a href="#autores">Autores e Contribuidores</a>
     </p>
@@ -33,6 +33,12 @@ Presenteie com liberdade, escolha com a gente.
 
 </a>
 
+### v0.0.2-20250505
+
+- Modificação no ReadME.
+- Alteração do caminho da imagem.
+- Mudança na (section: autores)
+
 ### v0.0.1-20250505
 
 - Instalação do Golang.
@@ -43,7 +49,7 @@ Presenteie com liberdade, escolha com a gente.
 
 ##
 
-<a name="section-autores">
+<a name="autores">
 
 ### Autores e Contribuidores
 
@@ -54,9 +60,10 @@ Presenteie com liberdade, escolha com a gente.
     <td align="center">
       <a href="#">
         <img src="https://avatars.githubusercontent.com/u/85912228?v=4" width="100px;" alt="Foto do Ryan Gomes no GitHub"/><br>
-        <sub>
-          <b>Ryan Gomes</b>
-        </sub>
+          <div>
+          <h4>Ryan Gomes</h4>
+          <p>Fundador</p>
+          </div>
       </a>
     </td>
 </table>
