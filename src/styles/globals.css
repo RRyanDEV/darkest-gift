@@ -3,5 +3,5 @@
 @source "../../.flowbite-react/class-list.json";
 
 body {
-  @apply bg-blue-950;
+  @apply bg-slate-900;
 }

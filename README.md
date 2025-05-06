@@ -33,11 +33,20 @@ Presenteie com liberdade, escolha com a gente.
 
 </a>
 
+### v0.0.3-20250505
+
+- Criação e estilização do `Footer`.
+- Ajustes na `Homepage`.
+- Conteúdo do `Footer` adicionado.
+- Correção no nome da loja na `Barra de navegação`
+- Mudança na paleta de cor da loja.
+
+
 ### v0.0.2-20250505
 
 - Modificação no ReadME.
 - Alteração do caminho da imagem.
-- Mudança na (section: autores)
+- Mudança na (`section: autores`)
 
 ### v0.0.1-20250505
 
@@ -60,10 +69,10 @@ Presenteie com liberdade, escolha com a gente.
     <td align="center">
       <a href="#">
         <img src="https://avatars.githubusercontent.com/u/85912228?v=4" width="100px;" alt="Foto do Ryan Gomes no GitHub"/><br>
-          <div>
-          <h4>Ryan Gomes</h4>
+          <sub>
+          <b>Ryan Gomes</b>
+          </sub>
           <p>Fundador</p>
-          </div>
       </a>
     </td>
 </table>

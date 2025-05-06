@@ -18,14 +18,17 @@ import Link from "next/link";
 export default function NavegationBar() {
   return (
     <>
-      <Navbar className="dark:bg-gray-900" fluid>
+      <Navbar className="dark:bg-indigo-950" fluid>
         <NavbarBrand>
           <span className="self-center whitespace-nowrap text-xl font-semibold text-white">
-            DarkestCode
+            DarkestGift
           </span>
         </NavbarBrand>
         <div id="User-Information" className="flex md:order-2">
-          <div id="Login-Register-User" className="hover:cursor-pointer text-white">
+          <div
+            id="Login-Register-User"
+            className="hover:cursor-pointer text-white"
+          >
             {/* //TODO Alterar, conforme for feito o login */}
             <Link className="flex items-center gap-2" href={"/login"}>
               <Avatar rounded />
