@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <div id="parent" className="flex flex-col h-screen justify-between">
-        <NavegationBar />
+        <NavegationBar user={"Entrar"} redirection={`/login`} />
         <Homepage />
         <FooterComponent />
       </div>

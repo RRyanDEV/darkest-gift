@@ -33,6 +33,15 @@ Presenteie com liberdade, escolha com a gente.
 
 </a>
 
+### v0.0.5-20250509
+
+- Criado a página de `Login`.
+- `Página de Login`, componentizada, para facilitar na manipulação de informações 
+- Criado um `Input` individual para a ocultação da senha.
+- Adaptação na forma de armazenar o nome do usuário logado, exibido na `Barra de Navegação`.
+- Ajuste na responsividade do site.
+- Mudança no `Copyright` do projeto.
+
 ### v0.0.4-20250508
 
 - Adição dos arquivos de configuração do `Flowbite React`, não necessitando mais instala-ló manualmente.
@@ -44,7 +53,6 @@ Presenteie com liberdade, escolha com a gente.
 - Conteúdo do `Footer` adicionado.
 - Correção no nome da loja na `Barra de navegação`
 - Mudança na paleta de cor da loja.
-
 
 ### v0.0.2-20250505
 

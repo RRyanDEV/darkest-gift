@@ -11,7 +11,7 @@ export default function FooterComponent() {
           <RightContentFooter />
         </div>
           <div id="copyright" className="flex justify-end max-sm:mt-5 mx-5">
-            <FooterCopyright href="#" by="DarkestCode Ltda." year={2025} />
+            <FooterCopyright href="#" by="DarkestCode" year={2025} />
           </div>
       </footer>
     </>

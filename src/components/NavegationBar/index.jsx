@@ -15,7 +15,7 @@ import Link from "next/link";
 
 //
 
-export default function NavegationBar() {
+export default function NavegationBar({ user, redirection, ...props }) {
   return (
     <>
       <Navbar className="dark:bg-indigo-950" fluid>
@@ -30,9 +30,9 @@ export default function NavegationBar() {
             className="hover:cursor-pointer text-white"
           >
             {/* //TODO Alterar, conforme for feito o login */}
-            <Link className="flex items-center gap-2" href={"/login"}>
+            <Link className="flex items-center gap-2" href={redirection}>
               <Avatar rounded />
-              Entrar
+              {user}
             </Link>
           </div>
           {/* Usuário Cadastrado  */}
