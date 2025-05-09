@@ -33,6 +33,10 @@ Presenteie com liberdade, escolha com a gente.
 
 </a>
 
+### v0.0.4-20250508
+
+- Adição dos arquivos de configuração do `Flowbite React`, não necessitando mais instala-ló manualmente.
+
 ### v0.0.3-20250505
 
 - Criação e estilização do `Footer`.
