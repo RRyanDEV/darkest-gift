@@ -33,6 +33,16 @@ Presenteie com liberdade, escolha com a gente.
 
 </a>
 
+### v0.0.6-20250512
+
+- Criado a página de `Registro do Usuário`.
+- Modificações na página de `Login do Usuário`.
+- Reestruturação das pastas de `Formulário (Cadastro e Login)`.
+- Adicionado um limitador de caracteres para a senha.
+- Mudança no `Input de Senha`.
+- Feito um componente padrão para o `Formulário`.
+- Adição de função que altera os componentes do `Formulário`. (Login e Cadastro)
+
 ### v0.0.5-20250509
 
 - Criado a página de `Login`.

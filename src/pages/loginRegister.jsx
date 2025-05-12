@@ -1,5 +1,5 @@
 import FooterComponent from "@/components/Footer";
-import LoginComponent from "@/components/Form/Login";
+import Form from "@/components/Form";
 import NavegationBar from "@/components/NavegationBar";
 
 export default function LoginRegisterScreen() {
@@ -9,10 +9,10 @@ export default function LoginRegisterScreen() {
         <NavegationBar user={"Ryan"} redirection={"/"} />
         <div id="content" className="flex items-center justify-center flex-col">
           <div id="componentAlign" className="p-3 w-96">
-          <LoginComponent />
+            <Form />
           </div>
         </div>
-        <FooterComponent/>
+        <FooterComponent />
       </div>
     </>
   );

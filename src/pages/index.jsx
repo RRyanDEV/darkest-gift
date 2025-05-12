@@ -5,8 +5,8 @@ import NavegationBar from "@/components/NavegationBar";
 export default function Home() {
   return (
     <>
-      <div id="parent" className="flex flex-col h-screen justify-between">
-        <NavegationBar user={"Entrar"} redirection={`/login`} />
+      <div id="parentHome" className="flex flex-col h-screen justify-between">
+        <NavegationBar user={"Entrar"} redirection={`/loginRegister`} />
         <Homepage />
         <FooterComponent />
       </div>
