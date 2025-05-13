@@ -33,6 +33,10 @@ Presenteie com liberdade, escolha com a gente.
 
 </a>
 
+### v0.0.7-20250513
+
+- Corrigido o envio de informações. (`Email e Senha do usuário`)
+
 ### v0.0.6-20250512
 
 - Criado a página de `Registro do Usuário`.

@@ -13,6 +13,7 @@ export default function LoginComponent() {
           <TextInput
             id="email"
             type="email"
+            name="email"
             rightIcon={HiMail}
             placeholder="* Email"
             required

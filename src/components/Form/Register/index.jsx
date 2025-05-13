@@ -2,8 +2,6 @@ import { Button, Label, TextInput } from "flowbite-react";
 import { HiMail } from "react-icons/hi";
 import PasswordInput from "../PasswordInput";
 
-
-
 export default function RegisterComponent() {
   return (
     <>
@@ -15,6 +13,7 @@ export default function RegisterComponent() {
           <TextInput
             id="email"
             type="email"
+            name="email"
             rightIcon={HiMail}
             placeholder="* Email"
             required
@@ -33,10 +32,18 @@ export default function RegisterComponent() {
             </div>
             <div id="subtitle" className="text-sm">
               <ul>
-                <li>Utilize no mínimo 8 caracteres. <b>(máximo 16 caracteres)</b></li>
-                <li>Utilize letras <b>MAIÚSCULAS</b> e <b>minúsculas</b>.</li>
-                <li>Utilize Caracteres Especias. <b>!, @, #, $, %, ^, &, *</b></li>
-                <li>Evite sequências como <b>"abc" ou "3003"</b>.</li>
+                <li>
+                  Utilize no mínimo 8 caracteres. <b>(máximo 16 caracteres)</b>
+                </li>
+                <li>
+                  Utilize letras <b>MAIÚSCULAS</b> e <b>minúsculas</b>.
+                </li>
+                <li>
+                  Utilize Caracteres Especias. <b>!, @, #, $, %, ^, &, *</b>
+                </li>
+                <li>
+                  Evite sequências como <b>"abc" ou "3003"</b>.
+                </li>
                 <li>Evite informações pessoais e palavras comuns.</li>
               </ul>
             </div>
